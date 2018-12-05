@@ -1,0 +1,37 @@
+[INFO  - 2018-12-05T10:27:00.114Z] GhostDriver - Main - running on port 58486
+[INFO  - 2018-12-05T10:27:04.145Z] Session [4f159aa0-f878-11e8-bb4b-d9e6438a1f75] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-12-05T10:27:04.145Z] Session [4f159aa0-f878-11e8-bb4b-d9e6438a1f75] - page.customHeaders:  - {}
+[INFO  - 2018-12-05T10:27:04.146Z] Session [4f159aa0-f878-11e8-bb4b-d9e6438a1f75] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-12-05T10:27:04.146Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4f159aa0-f878-11e8-bb4b-d9e6438a1f75
+[INFO  - 2018-12-05T10:28:55.961Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-12-05T10:33:55.961Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+75] - page.onError - stack:
+  (anonymous function) (https://s0.meituan.net/bs/fe-web-meituan/f2c6837/js/cityList.js:1)
+  n (https://s0.meituan.net/bs/fe-web-meituan/34aeb91/js/common.js:1)
+  (anonymous function) (https://s0.meituan.net/bs/fe-web-meituan/f2c6837/js/cityList.js:1)
+  (anonymous function) (https://s0.meituan.net/bs/fe-web-meituan/f2c6837/js/cityList.js:1)
+  n (https://s0.meituan.net/bs/fe-web-meituan/34aeb91/js/common.js:1)
+  (anonymous function) (https://s0.meituan.net/bs/fe-web-meituan/f2c6837/js/cityList.js:1)
+  n (https://s0.meituan.net/bs/fe-web-meituan/34aeb91/js/common.js:1)
+  webpackJsonpApp (https://s0.meituan.net/bs/fe-web-meituan/34aeb91/js/common.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-05T10:27:05.208Z] Session [4f159aa0-f878-11e8-bb4b-d9e6438a1f75] - page.onError - msg: [Turbo#React]  TypeError: undefined is not a valid argument for 'in' (evaluating ''default' in App')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-05T10:27:05.208Z] Session [4f159aa0-f878-11e8-bb4b-d9e6438a1f75] - page.onError - stack:
+  (anonymous function) (https://www.meituan.com/changecity/:171)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-05T10:27:05.246Z] Session [4f159aa0-f878-11e8-bb4b-d9e6438a1f75] - page.onError - msg: ReferenceError: Can't find variable: fetch
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-05T10:27:05.247Z] Session [4f159aa0-f878-11e8-bb4b-d9e6438a1f75] - page.onError - stack:
+  e (https://s0.meituan.net/bs/fe-web-meituan/f2c6837/js/com_header.js:1)
+  (anonymous function) (https://s0.meituan.net/bs/fe-web-meituan/f2c6837/js/com_header.js:1)
+  n (https://s0.meituan.net/bs/fe-web-meituan/34aeb91/js/common.js:1)
+  webpackJsonpApp (https://s0.meituan.net/bs/fe-web-meituan/34aeb91/js/common.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-12-05T10:32:00.115Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-12-05T10:37:00.119Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
